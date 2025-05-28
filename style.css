@@ -1,0 +1,48 @@
+.form-container {
+    width: 30vw;
+    height: 70vh;
+    border: 1px solid rgb(179, 172, 172);
+    margin: auto;
+    position: relative;
+    top: 6.25rem;
+    display: grid;
+    gap: 0.25rem;
+    padding: 1rem;
+}
+
+.form-container>.form-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.25rem;
+}
+
+.form-container>.form-group>button {
+    width: 25%;
+    font-size: 20px;
+    border: none;
+    border-radius: 0.25rem;
+}
+
+.form-container>.form-group>button:hover {
+    background-color: rgb(176, 173, 173);
+}
+
+.form-container>.form-group>input {
+    width: 100%;
+    font-size: 40px;
+    border: 1px solid rgb(198, 197, 197);
+    text-align: end;
+    outline: none;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.form-container>.form-group>.evaluate {
+    color: aliceblue;
+    background-color: rgb(77, 151, 243);
+    font-size: 30px;
+}
+
+.form-container>.form-group>.evaluate:hover {
+    background-color: rgb(97, 97, 225);
+}
